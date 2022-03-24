@@ -1,0 +1,17 @@
+﻿body {
+}
+label {
+    display: block;
+    background: blue;
+    width: 40%;
+    height: 100px;
+}
+
+#box:checked + label {
+    background: red;
+    color: #666666;
+}
+#box2:checked + label {
+    background: red;
+    color: #666666;
+}
